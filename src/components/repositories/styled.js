@@ -21,6 +21,8 @@ export const WrapperTab = styled(Tab)`
   padding: 16px;
   user-select: none;
   cursor: pointer;
+  display: flex;
+  align-items: center;
   z-index: 99999;
   background-color: "#fff";
   margin: 8px;
@@ -31,6 +33,9 @@ export const WrapperTab = styled(Tab)`
 
   &.is-selected {
     box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.2);
+  }
+  svg{
+    margin-right: 5px;
   }
 `;
 WrapperTab.tabsRole = "Tab";

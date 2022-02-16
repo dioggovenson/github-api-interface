@@ -22,10 +22,6 @@ const Profile = () => {
             </a>
           </S.WrapperUserGeneric>
           <S.WrapperUserGeneric>
-            <h3>Company:</h3>
-            <span>{githubState.user.company}</span>
-          </S.WrapperUserGeneric>
-          <S.WrapperUserGeneric>
             <h3>Location:</h3>
             <span>{githubState.user.location}</span>
           </S.WrapperUserGeneric>
@@ -42,7 +38,7 @@ const Profile = () => {
             <span> {githubState.user.followers}</span>
           </div>
           <div>
-            <h4>Followings</h4>
+            <h4>Following</h4>
             <span> {githubState.user.following}</span>
           </div>
           <div>

@@ -25,8 +25,8 @@ const Repositories = () => {
           selectedTabPanelClassName="is-selected"
         >
           <S.WrapperTabList>
-            <S.WrapperTab>Repositories</S.WrapperTab>
-            <S.WrapperTab>Starred</S.WrapperTab>
+            <S.WrapperTab><span className="iconify" data-icon="octicon:repo-24"></span>Repositories</S.WrapperTab>
+            <S.WrapperTab><span className="iconify" data-icon="octicon:star-24"></span> Starred</S.WrapperTab>
           </S.WrapperTabList>
           <S.WrapperTabPanel>
             <S.WrapperList>
